@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- что примечательного видим изначально в макете. В том, что у нас контент находится  в промежутке, то есть если включить в фигме колонки, 
+     то можем увидеть, что контент не выходит за предела. Соотвественно мы будем использовать контейнер -->
+     <header class="header">
+        <div class="container">
+            <!-- дальше у нас будет внутри делится блоки - часть логотипа и часть с меню и часть с оставшейся элементами (поиск и и тд)-->
+             <!-- в связи с этим можно использовать внутрненюю обертку - inner -->
+              <div class="header__inner">
+                <a href="#" class="logo">
+                    <img src="images/logo.svg" alt="">
+                </a>
+                <!-- навигация по сайту -->
+                 <nav class="menu">
+                    <!-- ul.menu__list>li.menu__item*5>a.menu__link[href=#] -- это эммет для ускорения -->
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Black</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Green</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">White</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Oolong</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Pu-erh</a>
+                        </li>
+                    </ul>
+                 </nav>
+                 <!-- дальше идет блок - корзинка, пользователь и поиск -->
+                  <ul class="user-actions">
+                        <li class="user-actions__item">
+                            <a href="#" class="user-actions__link">
+                                <img src="images/cart.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="user-actions__item">
+                            <a href="#" class="user-actions__link">
+                                <img src="images/user.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="user-actions__item user-actions__item-search">
+                            <a href="#" class="user-actions__link">
+                                <img src="images/search.svg" alt="">
+                            </a>
+                        </li>
+                  </ul>
+              </div>
+        </div>
+     </header>
+</body>
+</html>
