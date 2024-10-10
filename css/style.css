@@ -88,3 +88,52 @@ ul {
     margin-left: 100px;
 }
 
+/* следующая секция */
+.top {
+    background-image: url('./images/top-bg/jpg');
+    background-repeat: no-repeat; /* Определяет, как фон будет повторяться. В данном случае no-repeat означает, что изображение не будет повторяться ни по горизонтали, ни по вертикали. */
+    background-position: bottom center; /* Значение bottom center означает, что изображение будет размещено внизу по центру элемента. */
+    background-size: cover; /* Определяет, как изображение будет масштабироваться для заполнения элемента.
+Значение cover заставляет изображение полностью покрывать элемент */
+}
+
+.top__inner {
+    min-height: 500px; /* по макету */
+    color: white;
+    font-family: 'Cormorant', serif;
+    font-weight: 400;
+    /* размещаем элменты */
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.top__title {
+    font-size: 60px;
+    margin-bottom: 20px; /* по макету */
+    max-width: 780px; /* по макету */
+    line-height: 1;
+    font-weight: 400;
+}
+
+.top__text {
+    font-size: 24px;
+    margin-bottom: 48px; /* по макету */
+    max-width: 560px; /* по макету */
+    line-height: normal;
+}
+
+.blockquote__text {
+    text-align: center;
+    font-family: 'Cormorant', serif;
+    font-size: 40px;
+    font-style: italic;
+    margin: 150px auto; /* по макету 150px сверху и снизу*/
+    max-width: 704px;
+}
+
+
+
+
+
