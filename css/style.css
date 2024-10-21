@@ -133,7 +133,99 @@ ul {
     max-width: 704px;
 }
 
+.assortiment {
+    margin-bottom: 80px; /* по макету 150px*/
+}
 
+.assortiment__list{
+    text-align: center;
+    display: flex;
+    gap: 0 40px;
+    flex-wrap: wrap; 
+}
 
+.assortmenit__name {
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: 400;
+}
 
+.assortiment__img {
+    width: 208px;
+    height: 208px;
+}
 
+.reviews {
+    background-color: #f7f2ea;
+    padding-bottom: 60px 0;
+}
+
+.reviews__list {
+    display: flex;
+    gap: 0 26px;
+}
+
+.reviews__item {
+    flex-basis: 280px;
+}
+
+.reviews__text {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.reviews__name {
+    font-weight: 600;
+}
+
+.main-blog {
+    padding: 150px 0;
+}
+
+.main-blog__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40 58px;
+}
+
+.main-blog__item {
+    flex-basis: 542px;
+    gap: 0 20px;
+    display: flex;
+}
+
+.main-blog__item-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-blog__title {
+    min-height: 86px;
+    margin-bottom: 10px;
+    font-family: '';
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.main-blog__item-author {
+    font-size: 13px;
+}
+
+.main-blog__item-link::after {
+    content: '';
+    background-image: url('../images/');
+    width: 5px;
+    height: 10px;
+    margin-left: 8px;
+    bottom: 4px;
+}
+
+.main-blog__item-link {
+    padding: 12px 41px;
+    display: flex;
+    justify-content: center;
+    margin-top: 72px;
+    border: 1px solid #151618;
+    width: 150px;
+}
